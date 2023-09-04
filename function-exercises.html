@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <button onclick="go()" class="js-button">Start</button>
+    <script>
+      let q = document.querySelector('.js-button');
+      function go() {
+        setTimeout(function() {
+            q.innerHTML = 'Finished';
+          },1000);
+          q.innerHTML = 'Loading...';
+      }
+
+    </script>
+  </body>
+</html>
